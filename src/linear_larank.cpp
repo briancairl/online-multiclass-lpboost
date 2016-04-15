@@ -11,7 +11,7 @@
  *                    Graz University of Technology, Austria
  */
 
-#include "linear_larank.h"
+#include <omlpboost/linear_larank.h>
 
 LinearLaRank::LinearLaRank(const Hyperparameters& hp, const int& numClasses, const int& numFeatures,
                            const VectorXd& minFeatRange, const VectorXd& maxFeatRange) :

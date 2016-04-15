@@ -11,9 +11,9 @@
  *                    Graz University of Technology, Austria
  */
 
-#include "booster.h"
-#include "online_rf.h"
-#include "linear_larank.h"
+#include <omlpboost/booster.h>
+#include <omlpboost/online_rf.h>
+#include <omlpboost/linear_larank.h>
 
 Booster::Booster(const Hyperparameters& hp, const int& numClasses, const int& numFeatures,
                  const VectorXd& minFeatRange, const VectorXd& maxFeatRange) :

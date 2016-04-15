@@ -11,7 +11,7 @@
  *                    Graz University of Technology, Austria
  */
 
-#include "online_mclpboost.h"
+#include <omlpboost/online_mclpboost.h>
 
 OnlineMCLPBoost::OnlineMCLPBoost(const Hyperparameters& hp, const int& numClasses, const int& numFeatures, 
                                  const VectorXd& minFeatRange, const VectorXd& maxFeatRange) :

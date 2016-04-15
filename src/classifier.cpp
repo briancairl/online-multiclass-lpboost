@@ -11,7 +11,7 @@
  *                    Graz University of Technology, Austria
  */
 
-#include "classifier.h"
+#include <omlpboost/classifier.h>
 
 Classifier::Classifier(const Hyperparameters& hp, const int& numClasses) : 
     m_numClasses(&numClasses), m_hp(&hp) {

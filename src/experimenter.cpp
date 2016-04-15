@@ -14,7 +14,7 @@
 #include <fstream>
 #include <sys/time.h>
 
-#include "experimenter.h"
+#include <omlpboost/experimenter.h>
 
 void train(Classifier* model, DataSet& dataset, Hyperparameters& hp) {
     timeval startTime;
